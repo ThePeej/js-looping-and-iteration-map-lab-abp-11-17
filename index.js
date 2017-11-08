@@ -26,8 +26,9 @@ function nameToAttributes(drivers) {
 
         first = name.slice(0,x); //first is the letters up to the space
         last = name.slice(x+1); //last is the letters after (and not including) the space
-        sortedNames.firstName = first; //creating object key pairs bro!
-        sortedNames.lastName = last;
+        sortedNames = Object.assign({}, { firstName: `${first}`}, { lastName: `${last}`})
+        //sortedNames.firstName = first; //creating object key pairs bro!
+        //sortedNames.lastName = last;
         //console.log(first);
         //console.log(last);
         //console.log(sortedNames);
