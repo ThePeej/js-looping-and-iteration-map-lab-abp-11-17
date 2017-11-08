@@ -31,7 +31,7 @@ function nameToAttributes(drivers) {
         //console.log(first);
         //console.log(last);
         //console.log(sortedNames);
-        sortedDrivers = Object.assign(sortedDrivers, sortedNames)
+        sortedDrivers.push(sortedNames);
         console.log(sortedDrivers)
         debugger;
       }
