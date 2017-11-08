@@ -11,8 +11,8 @@ function nameToAttributes(drivers) {
   for (let i = 0; i < drivers.length; i++) {
     const name = drivers[i] ///name will iterate through each element in 'drivers' array
 
-    console.log(name)
-    debugger;
+    ///console.log(name)
+    ///debugger;
 
     for (let x = 0; x < name.length; x++) {
       const letter = name[x]; //letter will iterate through each letter per name of 'drivers' array
@@ -27,9 +27,9 @@ function nameToAttributes(drivers) {
         last = name.slice(x+1); //last is the letters after (and not including) the space
         sortedNames.firstName = first; ///
         sortedNames.lastName = last;
-        console.log(first);
-        console.log(last);
-        console.log(sortedNames);
+        ///console.log(first);
+        ///console.log(last);
+        ///console.log(sortedNames);
         sortedDrivers.push(sortedNames)
         console.log(sortedDrivers)
         debugger;
