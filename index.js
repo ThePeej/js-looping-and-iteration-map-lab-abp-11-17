@@ -6,10 +6,10 @@ function lowerCaseDrivers(drivers) {
 }
 
 function nameToAttributes(drivers) {
-
+  let sortedDrivers = []
   for (let i = 0; i < drivers.length; i++) {
     const name = drivers[i]
-    let sortedDrivers = []
+
     console.log(name)
     debugger;
 
@@ -22,8 +22,8 @@ function nameToAttributes(drivers) {
       if (letter === " ") {
         first = name.slice(0,x);
         last = name.slice(x+1);
-        sortedDrivers.firstName = first;
-        sortedDrivers.lastName = last;
+        sortedDrivers[i].firstName = first;
+        sortedDrivers[i].lastName = last;
         console.log(first);
         console.log(last);
         console.log(sortedDrivers);
