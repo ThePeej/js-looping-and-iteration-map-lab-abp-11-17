@@ -22,7 +22,7 @@ function nameToAttributes(drivers) {
       debugger;
       if (letter === " ") {
         first = name.slice(0,x);
-        last = name.slice(x);
+        last = name.slice(x+1);
         console.log(first);
         debugger;
         console.log(last);
