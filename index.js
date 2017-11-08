@@ -5,20 +5,23 @@ function lowerCaseDrivers(drivers) {
   return lowerDrivers;
 }
 
-/*
 function nameToAttributes(drivers) {
-  for (const name of drivers) {
-    const space = " ";
+  for (let i = 0; i < drivers.length; i++) {
+    console.log(drivers[i])
+    debugger;
 
-    find index where space is
-    first = array up to but not including
-    last= array after space
-    newArr.firstName = drivers.map(function(first) {return first})
-    newArr.lastName = drivers.map(function(last) {return last})
+    /*
+    for (const name of drivers) {
+      const space = " ";
+      find index where space is
+      first = array up to but not including
+      last= array after space
+      newArr.firstName = drivers.map(function(first) {return first})
+      newArr.lastName = drivers.map(function(last) {return last})
+      */
 
   }
 }
-*/
 
 function attributesToPhrase(drivers) {
   let phrase = [];
