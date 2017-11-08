@@ -1,7 +1,7 @@
 // Code your solution in this file.
 function lowerCaseDrivers(drivers) {
   const lowerDrivers = drivers.map(function(name) {return name.toLowerCase()});
-  ///console.log(lowerDrivers);
+  //console.log(lowerDrivers);
   return lowerDrivers;
 }
 
@@ -9,33 +9,34 @@ function nameToAttributes(drivers) {
   let sortedDrivers = []
   let sortedNames = []
   for (let i = 0; i < drivers.length; i++) {
-    const name = drivers[i] ///name will iterate through each element in 'drivers' array
+    const name = drivers[i] //name will iterate through each element in 'drivers' array
 
-    ///console.log(name)
-    ///debugger;
+    //console.log(name)
+    //debugger;
 
     for (let x = 0; x < name.length; x++) {
       const letter = name[x]; //letter will iterate through each letter per name of 'drivers' array
       let first = [];
       let last = [];
-      ///console.log(letter);
-      ///debugger;
+      //console.log(letter);
+      //debugger;
 
       //checks to see if current letter is a space, then knows proper index of current name element for slicing apart first and last name
       if (letter === " ") {
         first = name.slice(0,x); //first is the letters up to the space
         last = name.slice(x+1); //last is the letters after (and not including) the space
-        sortedNames.firstName = first; ///
+        sortedNames.firstName = first; //creating object key pairs bro!
         sortedNames.lastName = last;
-        ///console.log(first);
-        ///console.log(last);
-        ///console.log(sortedNames);
+        //console.log(first);
+        //console.log(last);
+        //console.log(sortedNames);
         sortedDrivers.push(sortedNames)
-        console.log(sortedDrivers)
-        debugger;
+        //console.log(sortedDrivers)
+        //debugger;
       }
     }
   }
+  return sortedDrivers
 }
 
 /*
