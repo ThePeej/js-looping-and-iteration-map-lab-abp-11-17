@@ -7,9 +7,8 @@ function lowerCaseDrivers(drivers) {
 
 function nameToAttributes(drivers) {
 
-  ///for (let i = 0; i < drivers.length; i++) {
-    ///const name = drivers[i]
-  for (const name of drivers) {
+  for (let i = 0; i < drivers.length; i++) {
+    const name = drivers[i]
     let firstName = []
     let lastName = []
     ///console.log(name)
