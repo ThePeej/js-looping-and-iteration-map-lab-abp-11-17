@@ -9,7 +9,7 @@ function nameToAttributes(drivers) {
   let sortedDrivers = []
   let sortedNames = []
   for (let i = 0; i < drivers.length; i++) {
-    const name = drivers[i] ///name will iterate through each element in 'drivers' array 
+    const name = drivers[i] ///name will iterate through each element in 'drivers' array
 
     console.log(name)
     debugger;
@@ -31,6 +31,7 @@ function nameToAttributes(drivers) {
         console.log(last);
         console.log(sortedNames);
         sortedDrivers.push(sortedNames)
+        console.log(sortedDrivers)
         debugger;
       }
     }
