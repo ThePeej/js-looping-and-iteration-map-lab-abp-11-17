@@ -25,5 +25,4 @@ function attributesToPhrase(drivers) {
   let  driverName = drivers.map(function(driver) {return driver.name})
   console.log(driverName);
   debugger;
-  }
 }
