@@ -22,9 +22,8 @@ function nameToAttributes(drivers) {
 
 function attributesToPhrase(drivers) {
   let phrase = [];
-  for (const driver of drivers) {
-    let  driverName = drivers.map(function(driver) {return driver.name})
-    console.log(driverName);
-    debugger;
+  let  driverName = drivers.map(function(driver) {return driver.name})
+  console.log(driverName);
+  debugger;
   }
 }
