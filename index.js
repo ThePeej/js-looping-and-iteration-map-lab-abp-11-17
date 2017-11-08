@@ -10,9 +10,11 @@ function nameToAttributes(drivers) {
     const name = drivers[i]
     console.log(name)
     debugger;
-    
+
     for (let x = 0; x < name.length; x++) {
-      
+      const letter = name[x];
+      console.log(letter);
+      debugger;
     }
     /*
     for (const name of drivers) {
