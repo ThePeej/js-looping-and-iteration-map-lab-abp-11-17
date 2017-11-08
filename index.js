@@ -18,8 +18,8 @@ function nameToAttributes(drivers) {
       const letter = name[x];
       let first = [];
       let last = [];
-      ///console.log(letter);
-      ///debugger;
+      console.log(letter);
+      debugger;
       if (letter = " ") {
         first = name.slice(0,i);
         last = name.slice(i);
