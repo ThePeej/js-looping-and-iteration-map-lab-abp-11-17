@@ -1,7 +1,7 @@
 // Code your solution in this file.
 function lowerCaseDrivers(drivers) {
   const lowerDrivers = drivers.map(function(name) {return name.toLowerCase()});
-  console.log(lowerDrivers);
+  ///console.log(lowerDrivers);
   return lowerDrivers;
 }
 
@@ -48,11 +48,11 @@ function attributesToPhrase(drivers) {
   let phrase = [];
   let  driverName = drivers.map(function(driver) {return driver.name});
   let driverHometown = drivers.map(function(driver) {return driver.hometown});
-  console.log(driverName);
-  console.log(driverHometown);
+  ///console.log(driverName);
+  ///console.log(driverHometown);
   for (let i = 0; i < driverName.length; i++) {
     phrase.push(`${driverName[i]} is from ${driverHometown[i]}`)
-    console.log(phrase)
+    ///console.log(phrase)
   }
   return phrase
 }
