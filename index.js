@@ -22,7 +22,14 @@ function nameToAttributes(drivers) {
 
 function attributesToPhrase(drivers) {
   let phrase = [];
-  let  driverName = drivers.map(function(driver) {return driver.name})
+  let  driverName = drivers.map(function(driver) {return driver.name});
+  let driverHometown = drivers.map(function(driver) {return driver.hometown});
   console.log(driverName);
-  debugger;
+  console.log(driverHometown);
+  for (let i = 0; i < driverName.length; i++) {
+    phrase.push(`${driverName[i]} is from ${driverHometown[i]}`)
+    console.log(phrase)
+    debugger;
+  }
+  return phrase
 }
