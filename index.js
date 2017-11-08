@@ -9,8 +9,7 @@ function nameToAttributes(drivers) {
 
   for (let i = 0; i < drivers.length; i++) {
     const name = drivers[i]
-    let firstName = []
-    let lastName = []
+    let sortedDrivers = []
     console.log(name)
     debugger;
 
@@ -23,8 +22,8 @@ function nameToAttributes(drivers) {
       if (letter === " ") {
         first = name.slice(0,x);
         last = name.slice(x+1);
-        driver.firstName = first;
-        driver.lastName = last
+        sortedDrivers.firstName = first;
+        sortedDrivers.lastName = last;
         console.log(first);
         console.log(last);
         console.log(driver)
