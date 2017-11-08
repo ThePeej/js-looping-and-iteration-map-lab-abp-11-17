@@ -11,8 +11,8 @@ function nameToAttributes(drivers) {
     const name = drivers[i]
     let firstName = []
     let lastName = []
-    ///console.log(name)
-    ///debugger;
+    console.log(name)
+    debugger;
 
     for (let x = 0; x < name.length; x++) {
       const letter = name[x];
@@ -31,18 +31,18 @@ function nameToAttributes(drivers) {
         debugger;
       }
     }
-    /*
-    for (const name of drivers) {
-      const space = " ";
-      find index where space is
-      first = array up to but not including
-      last= array after space
-      newArr.firstName = drivers.map(function(first) {return first})
-      newArr.lastName = drivers.map(function(last) {return last})
-      */
-
   }
 }
+
+/*
+for (const name of drivers) {
+  const space = " ";
+  find index where space is
+  first = array up to but not including
+  last= array after space
+  newArr.firstName = drivers.map(function(first) {return first})
+  newArr.lastName = drivers.map(function(last) {return last})
+  */
 
 function attributesToPhrase(drivers) {
   let phrase = [];
