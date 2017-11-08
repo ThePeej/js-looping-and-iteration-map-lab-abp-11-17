@@ -26,12 +26,12 @@ function nameToAttributes(drivers) {
 
         first = name.slice(0,x); //first is the letters up to the space
         last = name.slice(x+1); //last is the letters after (and not including) the space
-        sortedNames[i].firstName = first; //creating object key pairs bro!
-        sortedNames[i].lastName = last;
+        sortedNames.firstName = first; //creating object key pairs bro!
+        sortedNames.lastName = last;
         //console.log(first);
         //console.log(last);
         //console.log(sortedNames);
-        sortedDrivers[i] = sortedNames
+        sortedDrivers = Object.assign(sortedDrivers, sortedNames)
         console.log(sortedDrivers)
         debugger;
       }
