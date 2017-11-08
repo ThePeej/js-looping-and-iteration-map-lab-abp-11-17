@@ -30,9 +30,9 @@ function nameToAttributes(drivers) {
         //console.log(first);
         //console.log(last);
         //console.log(sortedNames);
-        sortedDrivers.push(sortedNames)
-        //console.log(sortedDrivers)
-        //debugger;
+        sortedDrivers[i] = sortedNames
+        console.log(sortedDrivers)
+        debugger;
       }
     }
   }
