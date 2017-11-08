@@ -24,6 +24,7 @@ function nameToAttributes(drivers) {
         first = name.slice(0,i);
         last = name.slice(i);
         console.log(first);
+        debugger;
         console.log(last);
         debugger;
       }
