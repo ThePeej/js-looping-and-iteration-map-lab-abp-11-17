@@ -15,14 +15,14 @@ function nameToAttributes(drivers) {
     last= array after space
     newArr.firstName = drivers.map(function(first) {return first})
     newArr.lastName = drivers.map(function(last) {return last})
-    
+
   }
 }
 */
 
 function attributesToPhrase(drivers) {
-  let match
+  let match = []
   for (const name of drivers) {
-    
+
   }
 }
