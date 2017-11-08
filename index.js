@@ -9,7 +9,7 @@ function nameToAttributes(drivers) {
 
   ///for (let i = 0; i < drivers.length; i++) {
     ///const name = drivers[i]
-  for (const driver of drivers) {
+  for (const name of drivers) {
     let firstName = []
     let lastName = []
     ///console.log(name)
