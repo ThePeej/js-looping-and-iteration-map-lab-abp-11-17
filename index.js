@@ -39,7 +39,7 @@ function nameToAttributes(drivers) {
     }
   }
   console.log(sortedDrivers)
-  debugger;
+  ///debugger;
   return sortedDrivers
 }
 
