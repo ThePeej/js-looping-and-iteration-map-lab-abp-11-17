@@ -7,9 +7,13 @@ function lowerCaseDrivers(drivers) {
 
 function nameToAttributes(drivers) {
   for (let i = 0; i < drivers.length; i++) {
-    console.log(drivers[i])
+    const name = drivers[i]
+    console.log(name)
     debugger;
-
+    
+    for (let x = 0; x < name.length; x++) {
+      
+    }
     /*
     for (const name of drivers) {
       const space = " ";
