@@ -18,8 +18,8 @@ function nameToAttributes(drivers) {
       const letter = name[x]; //letter will iterate through each letter per name of 'drivers' array
       let first = [];
       let last = [];
-      console.log(letter);
-      debugger;
+      ///console.log(letter);
+      ///debugger;
 
       //checks to see if current letter is a space, then knows proper index of current name element for slicing apart first and last name
       if (letter === " ") {
