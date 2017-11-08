@@ -29,7 +29,6 @@ function attributesToPhrase(drivers) {
   for (let i = 0; i < driverName.length; i++) {
     phrase.push(`${driverName[i]} is from ${driverHometown[i]}`)
     console.log(phrase)
-    debugger;
   }
   return phrase
 }
