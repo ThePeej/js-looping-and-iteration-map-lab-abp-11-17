@@ -33,8 +33,8 @@ function nameToAttributes(drivers) {
         //console.log(last);
         //console.log(sortedNames);
         sortedDrivers.push(sortedNames);
-        console.log(sortedDrivers)
-        debugger;
+        ///console.log(sortedDrivers)
+        ///debugger;
       }
     }
   }
