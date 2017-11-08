@@ -26,7 +26,7 @@ function nameToAttributes(drivers) {
         sortedDrivers.lastName = last;
         console.log(first);
         console.log(last);
-        console.log(driver)
+        console.log(driver);
         debugger;
       }
     }
