@@ -7,26 +7,30 @@ function lowerCaseDrivers(drivers) {
 
 function nameToAttributes(drivers) {
   let sortedDrivers = []
+  let sortedNames = []
   for (let i = 0; i < drivers.length; i++) {
-    const name = drivers[i]
+    const name = drivers[i] ///name will iterate through each element in 'drivers' array 
 
     console.log(name)
     debugger;
 
     for (let x = 0; x < name.length; x++) {
-      const letter = name[x];
+      const letter = name[x]; //letter will iterate through each letter per name of 'drivers' array
       let first = [];
       let last = [];
       console.log(letter);
       debugger;
+
+      //checks to see if current letter is a space, then knows proper index of current name element for slicing apart first and last name
       if (letter === " ") {
-        first = name.slice(0,x);
-        last = name.slice(x+1);
-        sortedDrivers.firstName = first;
-        sortedDrivers.lastName = last;
+        first = name.slice(0,x); //first is the letters up to the space
+        last = name.slice(x+1); //last is the letters after (and not including) the space
+        sortedNames.firstName = first; ///
+        sortedNames.lastName = last;
         console.log(first);
         console.log(last);
-        console.log(sortedDrivers);
+        console.log(sortedNames);
+        sortedDrivers.push(sortedNames)
         debugger;
       }
     }
