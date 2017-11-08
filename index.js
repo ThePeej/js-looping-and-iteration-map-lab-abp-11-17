@@ -16,13 +16,14 @@ function nameToAttributes(drivers) {
 
     for (let x = 0; x < name.length; x++) {
       const letter = name[x]; //letter will iterate through each letter per name of 'drivers' array
-      let first = [];
-      let last = [];
+
       //console.log(letter);
       //debugger;
 
       //checks to see if current letter is a space, then knows proper index of current name element for slicing apart first and last name
       if (letter === " ") {
+        let first = [];
+        let last = [];
         first = name.slice(0,x); //first is the letters up to the space
         last = name.slice(x+1); //last is the letters after (and not including) the space
         sortedNames.firstName = first; //creating object key pairs bro!
