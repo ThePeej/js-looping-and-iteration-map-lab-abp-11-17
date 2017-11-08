@@ -22,8 +22,8 @@ function nameToAttributes(drivers) {
       if (letter === " ") {
         first = name.slice(0,x);
         last = name.slice(x+1);
-        sortedDrivers[i].firstName = first;
-        sortedDrivers[i].lastName = last;
+        sortedDrivers.firstName = first;
+        sortedDrivers.lastName = last;
         console.log(first);
         console.log(last);
         console.log(sortedDrivers);
